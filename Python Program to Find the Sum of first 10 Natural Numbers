@@ -1,4 +1,4 @@
-#program to find sum of a natural numbers
+#program to find sum of a natural numbers using while loop
 n=int(input("enter the value:"))
 sum=0
 i=1
@@ -6,3 +6,14 @@ while i<=n:
 	sum+=i
 	i+=1
 print("the sum =",sum)	
+
+
+
+
+#PROGRAM TO FIND N NATURARAL NUMERS USING FOR LOOP
+n=int(input("ENTER THE N VALUE:"))
+sum=0
+for i in range(1,n+1):
+	sum+=i
+	i+=1
+print("sum=",sum)	
