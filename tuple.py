@@ -1,0 +1,20 @@
+t=('a','b','c','d','e','f')
+t1=(45,67,89)
+t2=(56,76,99)
+t3=t1
+print(t1+t2)
+print(t3)
+print(t2*5)
+print(t1[0])
+print(t2[2])
+print(89 in t1)
+print(99 not in t2)
+for i in(t1):
+	print(i)	
+print(t)
+#print(t1.index(0))
+print(len(t3))
+print(t1.count(2))
+t4=tuple(zip(t1,t2))
+print(t3)
+
