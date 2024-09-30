@@ -1,0 +1,22 @@
+a={1,2,3,4,5}
+b={6,7,8,9,4}
+print(a | b)
+print(a & b)
+print(a - b)
+print(a ^ b)
+print(5 not in b)
+print(7 in a)
+a.add("car")
+print(a)
+v={1,3,4,7,8}
+v.clear()
+a.discard("car")
+print(a)
+b.remove(4)
+print(b)
+a1=a.copy()
+print(a1)
+print(a.difference(b))
+print(a.symmetric_difference(b))
+print(a.intersection(b))
+print(a.union(b))
